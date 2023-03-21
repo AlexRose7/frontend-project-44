@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import greetings from "../src/cli.js";
+import startGame from "./brain-even.js";
 
-console.log("Welcome to the Brain Games!");
-
-console.log(greetings());
+console.log(startGame());
