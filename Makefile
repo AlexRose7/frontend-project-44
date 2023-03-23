@@ -8,6 +8,10 @@ brain-calc:
 	node bin/brain-calc.js;
 brain-gcd:
 	node bin/brain-gcd;
+brain-progression:
+	node bin/brain-progression;
+brain-prime:
+	node bin/brain-prime;
 publish:
 	npm publish --dry-run;
 lint:
