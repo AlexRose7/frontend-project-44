@@ -7,7 +7,7 @@ function isPrime(num) {
   if (num % 2 === 0) {
     return false;
   }
-  return num > 1;
+  return num;
 }
 
 function getGameData() {
