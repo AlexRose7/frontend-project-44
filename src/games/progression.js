@@ -8,7 +8,8 @@ function getProgression(start, step, lenght) {
   const b = step;
   let c = lenght;
   const res = [a];
-  while ((c -= 1)) {
+  while (c > 1) {
+    c -= 1;
     res.push((a += b));
   }
   return res;
