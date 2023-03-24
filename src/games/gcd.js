@@ -1,7 +1,7 @@
-import gameStart from "../index.js";
-import getRandomNum from "../random.js";
+import gameStart from '../index.js';
+import getRandomNum from '../random.js';
 
-const taskDeskription = "Find the greatest common divisor of given numbers.";
+const taskDeskription = 'Find the greatest common divisor of given numbers.';
 
 function getGsd(num1, num2) {
   if (!num2) {
