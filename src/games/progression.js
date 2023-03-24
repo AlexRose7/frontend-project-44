@@ -4,9 +4,12 @@ import getRandomNum from '../random.js';
 const taskDeskription = 'What number is missing in the progression?';
 
 function getProgression(start, step, lenght) {
-  const res = [start];
-  while ((lenght -= 1)) {
-    res.push((start += step));
+  let a = start;
+  const b = step;
+  let c = lenght;
+  const res = [a];
+  while ((c -= 1)) {
+    res.push((a += b));
   }
   return res;
 }
