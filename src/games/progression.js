@@ -1,7 +1,7 @@
-import gameStart from '../index.js';
-import getRandomNum from '../random.js';
+import gameStart from "../index.js";
+import getRandomNum from "../random.js";
 
-const taskDeskription = 'What number is missing in the progression?';
+const taskDeskription = "What number is missing in the progression?";
 
 function getProgression(start, step, lenght) {
   const res = [start];
@@ -18,8 +18,8 @@ function getGameData() {
   const progression = getProgression(start, step, lenght);
   const hiddenNum = getRandomNum(0, progression.length - 1);
   const correctAnswer = progression[hiddenNum].toString();
-  progression[hiddenNum] = '...';
-  const question = progression.join(' ');
+  progression[hiddenNum] = "..";
+  const question = progression.join(" ");
 
   return [question, correctAnswer];
 }
